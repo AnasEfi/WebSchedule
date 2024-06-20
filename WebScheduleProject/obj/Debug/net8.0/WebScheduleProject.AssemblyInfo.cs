@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WebScheduleProject")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+988c4611903e56b331818cc615df1cef463cec18")]
 [assembly: System.Reflection.AssemblyProductAttribute("WebScheduleProject")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WebScheduleProject")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

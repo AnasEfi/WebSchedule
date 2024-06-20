@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 
-namespace WebWTF.Controllers
+namespace WebScheduleProject.Controllers 
 {
     public class SimServiceController : Controller
     {

@@ -3,8 +3,84 @@
   "WorkspaceRootPath": "C:\\Users\\Anastasya\\source\\repos\\WebScheduleProject\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{445A8D8D-9BC3-46FF-8572-C23E141471D2}|WebScheduleProject\\WebScheduleProject.csproj|c:\\users\\anastasya\\source\\repos\\webscheduleproject\\webscheduleproject\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{445A8D8D-9BC3-46FF-8572-C23E141471D2}|WebScheduleProject\\WebScheduleProject.csproj|solutionrelative:webscheduleproject\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{445A8D8D-9BC3-46FF-8572-C23E141471D2}|WebScheduleProject\\WebScheduleProject.csproj|c:\\users\\anastasya\\source\\repos\\webscheduleproject\\webscheduleproject\\views\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{445A8D8D-9BC3-46FF-8572-C23E141471D2}|WebScheduleProject\\WebScheduleProject.csproj|solutionrelative:webscheduleproject\\views\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{445A8D8D-9BC3-46FF-8572-C23E141471D2}|WebScheduleProject\\WebScheduleProject.csproj|c:\\users\\anastasya\\source\\repos\\webscheduleproject\\webscheduleproject\\views\\contacts\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{445A8D8D-9BC3-46FF-8572-C23E141471D2}|WebScheduleProject\\WebScheduleProject.csproj|solutionrelative:webscheduleproject\\views\\contacts\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{445A8D8D-9BC3-46FF-8572-C23E141471D2}|WebScheduleProject\\WebScheduleProject.csproj|c:\\users\\anastasya\\source\\repos\\webscheduleproject\\webscheduleproject\\views\\account\\signin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{445A8D8D-9BC3-46FF-8572-C23E141471D2}|WebScheduleProject\\WebScheduleProject.csproj|solutionrelative:webscheduleproject\\views\\account\\signin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{445A8D8D-9BC3-46FF-8572-C23E141471D2}|WebScheduleProject\\WebScheduleProject.csproj|c:\\users\\anastasya\\source\\repos\\webscheduleproject\\webscheduleproject\\views\\account\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{445A8D8D-9BC3-46FF-8572-C23E141471D2}|WebScheduleProject\\WebScheduleProject.csproj|solutionrelative:webscheduleproject\\views\\account\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{445A8D8D-9BC3-46FF-8572-C23E141471D2}|WebScheduleProject\\WebScheduleProject.csproj|c:\\users\\anastasya\\source\\repos\\webscheduleproject\\webscheduleproject\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{445A8D8D-9BC3-46FF-8572-C23E141471D2}|WebScheduleProject\\WebScheduleProject.csproj|solutionrelative:webscheduleproject\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{445A8D8D-9BC3-46FF-8572-C23E141471D2}|WebScheduleProject\\WebScheduleProject.csproj|c:\\users\\anastasya\\source\\repos\\webscheduleproject\\webscheduleproject\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{445A8D8D-9BC3-46FF-8572-C23E141471D2}|WebScheduleProject\\WebScheduleProject.csproj|solutionrelative:webscheduleproject\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{445A8D8D-9BC3-46FF-8572-C23E141471D2}|WebScheduleProject\\WebScheduleProject.csproj|c:\\users\\anastasya\\source\\repos\\webscheduleproject\\webscheduleproject\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{445A8D8D-9BC3-46FF-8572-C23E141471D2}|WebScheduleProject\\WebScheduleProject.csproj|solutionrelative:webscheduleproject\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{445A8D8D-9BC3-46FF-8572-C23E141471D2}|WebScheduleProject\\WebScheduleProject.csproj|c:\\users\\anastasya\\source\\repos\\webscheduleproject\\webscheduleproject\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{445A8D8D-9BC3-46FF-8572-C23E141471D2}|WebScheduleProject\\WebScheduleProject.csproj|solutionrelative:webscheduleproject\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{445A8D8D-9BC3-46FF-8572-C23E141471D2}|WebScheduleProject\\WebScheduleProject.csproj|c:\\users\\anastasya\\source\\repos\\webscheduleproject\\webscheduleproject\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{445A8D8D-9BC3-46FF-8572-C23E141471D2}|WebScheduleProject\\WebScheduleProject.csproj|solutionrelative:webscheduleproject\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{445A8D8D-9BC3-46FF-8572-C23E141471D2}|WebScheduleProject\\WebScheduleProject.csproj|c:\\users\\anastasya\\source\\repos\\webscheduleproject\\webscheduleproject\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{445A8D8D-9BC3-46FF-8572-C23E141471D2}|WebScheduleProject\\WebScheduleProject.csproj|solutionrelative:webscheduleproject\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{445A8D8D-9BC3-46FF-8572-C23E141471D2}|WebScheduleProject\\WebScheduleProject.csproj|c:\\users\\anastasya\\source\\repos\\webscheduleproject\\webscheduleproject\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{445A8D8D-9BC3-46FF-8572-C23E141471D2}|WebScheduleProject\\WebScheduleProject.csproj|solutionrelative:webscheduleproject\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{445A8D8D-9BC3-46FF-8572-C23E141471D2}|WebScheduleProject\\WebScheduleProject.csproj|c:\\users\\anastasya\\source\\repos\\webscheduleproject\\webscheduleproject\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{445A8D8D-9BC3-46FF-8572-C23E141471D2}|WebScheduleProject\\WebScheduleProject.csproj|solutionrelative:webscheduleproject\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{445A8D8D-9BC3-46FF-8572-C23E141471D2}|WebScheduleProject\\WebScheduleProject.csproj|c:\\users\\anastasya\\source\\repos\\webscheduleproject\\webscheduleproject\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{445A8D8D-9BC3-46FF-8572-C23E141471D2}|WebScheduleProject\\WebScheduleProject.csproj|solutionrelative:webscheduleproject\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{445A8D8D-9BC3-46FF-8572-C23E141471D2}|WebScheduleProject\\WebScheduleProject.csproj|c:\\users\\anastasya\\source\\repos\\webscheduleproject\\webscheduleproject\\views\\simservice\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{445A8D8D-9BC3-46FF-8572-C23E141471D2}|WebScheduleProject\\WebScheduleProject.csproj|solutionrelative:webscheduleproject\\views\\simservice\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{445A8D8D-9BC3-46FF-8572-C23E141471D2}|WebScheduleProject\\WebScheduleProject.csproj|c:\\users\\anastasya\\source\\repos\\webscheduleproject\\webscheduleproject\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{445A8D8D-9BC3-46FF-8572-C23E141471D2}|WebScheduleProject\\WebScheduleProject.csproj|solutionrelative:webscheduleproject\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{445A8D8D-9BC3-46FF-8572-C23E141471D2}|WebScheduleProject\\WebScheduleProject.csproj|c:\\users\\anastasya\\source\\repos\\webscheduleproject\\webscheduleproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{445A8D8D-9BC3-46FF-8572-C23E141471D2}|WebScheduleProject\\WebScheduleProject.csproj|solutionrelative:webscheduleproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{445A8D8D-9BC3-46FF-8572-C23E141471D2}|WebScheduleProject\\WebScheduleProject.csproj|c:\\users\\anastasya\\source\\repos\\webscheduleproject\\webscheduleproject\\controllers\\contactscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{445A8D8D-9BC3-46FF-8572-C23E141471D2}|WebScheduleProject\\WebScheduleProject.csproj|solutionrelative:webscheduleproject\\controllers\\contactscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{445A8D8D-9BC3-46FF-8572-C23E141471D2}|WebScheduleProject\\WebScheduleProject.csproj|c:\\users\\anastasya\\source\\repos\\webscheduleproject\\webscheduleproject\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{445A8D8D-9BC3-46FF-8572-C23E141471D2}|WebScheduleProject\\WebScheduleProject.csproj|solutionrelative:webscheduleproject\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{445A8D8D-9BC3-46FF-8572-C23E141471D2}|WebScheduleProject\\WebScheduleProject.csproj|c:\\users\\anastasya\\source\\repos\\webscheduleproject\\webscheduleproject\\controllers\\simservicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{445A8D8D-9BC3-46FF-8572-C23E141471D2}|WebScheduleProject\\WebScheduleProject.csproj|solutionrelative:webscheduleproject\\controllers\\simservicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,24 +90,271 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Anastasya\\source\\repos\\WebScheduleProject\\WebScheduleProject\\Program.cs",
-              "RelativeDocumentMoniker": "WebScheduleProject\\Program.cs",
-              "ToolTip": "C:\\Users\\Anastasya\\source\\repos\\WebScheduleProject\\WebScheduleProject\\Program.cs",
-              "RelativeToolTip": "WebScheduleProject\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAnAAAA",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml.css",
+              "DocumentMoniker": "C:\\Users\\Anastasya\\source\\repos\\WebScheduleProject\\WebScheduleProject\\Views\\Shared\\_Layout.cshtml.css",
+              "RelativeDocumentMoniker": "WebScheduleProject\\Views\\Shared\\_Layout.cshtml.css",
+              "ToolTip": "C:\\Users\\Anastasya\\source\\repos\\WebScheduleProject\\WebScheduleProject\\Views\\Shared\\_Layout.cshtml.css",
+              "RelativeToolTip": "WebScheduleProject\\Views\\Shared\\_Layout.cshtml.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-06-20T14:49:26.35Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Anastasya\\source\\repos\\WebScheduleProject\\WebScheduleProject\\Views\\Contacts\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebScheduleProject\\Views\\Contacts\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Anastasya\\source\\repos\\WebScheduleProject\\WebScheduleProject\\Views\\Contacts\\Index.cshtml",
+              "RelativeToolTip": "WebScheduleProject\\Views\\Contacts\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-20T14:47:59.268Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\Anastasya\\source\\repos\\WebScheduleProject\\WebScheduleProject\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "WebScheduleProject\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\Anastasya\\source\\repos\\WebScheduleProject\\WebScheduleProject\\Properties\\launchSettings.json",
+              "RelativeToolTip": "WebScheduleProject\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-20T14:47:12.882Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Anastasya\\source\\repos\\WebScheduleProject\\WebScheduleProject\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "WebScheduleProject\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Anastasya\\source\\repos\\WebScheduleProject\\WebScheduleProject\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "WebScheduleProject\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-20T13:56:59.742Z",
+              "WhenOpened": "2024-06-20T14:36:45.486Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Anastasya\\source\\repos\\WebScheduleProject\\WebScheduleProject\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "WebScheduleProject\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\Anastasya\\source\\repos\\WebScheduleProject\\WebScheduleProject\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "WebScheduleProject\\Models\\ErrorViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T14:36:09.578Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Anastasya\\source\\repos\\WebScheduleProject\\WebScheduleProject\\Models\\User.cs",
+              "RelativeDocumentMoniker": "WebScheduleProject\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\Anastasya\\source\\repos\\WebScheduleProject\\WebScheduleProject\\Models\\User.cs",
+              "RelativeToolTip": "WebScheduleProject\\Models\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T14:36:15.321Z",
               "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{269a02dc-6af8-11d3-bdc4-00c04f688e50}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Anastasya\\source\\repos\\WebScheduleProject\\WebScheduleProject\\Views\\Account\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebScheduleProject\\Views\\Account\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Anastasya\\source\\repos\\WebScheduleProject\\WebScheduleProject\\Views\\Account\\Index.cshtml",
+              "RelativeToolTip": "WebScheduleProject\\Views\\Account\\Index.cshtml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-20T14:38:28.265Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SignIn.cshtml",
+              "DocumentMoniker": "C:\\Users\\Anastasya\\source\\repos\\WebScheduleProject\\WebScheduleProject\\Views\\Account\\SignIn.cshtml",
+              "RelativeDocumentMoniker": "WebScheduleProject\\Views\\Account\\SignIn.cshtml",
+              "ToolTip": "C:\\Users\\Anastasya\\source\\repos\\WebScheduleProject\\WebScheduleProject\\Views\\Account\\SignIn.cshtml",
+              "RelativeToolTip": "WebScheduleProject\\Views\\Account\\SignIn.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-20T14:38:32.505Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "C:\\Users\\Anastasya\\source\\repos\\WebScheduleProject\\WebScheduleProject\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "WebScheduleProject\\Views\\Shared\\Error.cshtml",
+              "ToolTip": "C:\\Users\\Anastasya\\source\\repos\\WebScheduleProject\\WebScheduleProject\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "WebScheduleProject\\Views\\Shared\\Error.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-20T14:46:14.916Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Anastasya\\source\\repos\\WebScheduleProject\\WebScheduleProject\\appsettings.json",
+              "RelativeDocumentMoniker": "WebScheduleProject\\appsettings.json",
+              "ToolTip": "C:\\Users\\Anastasya\\source\\repos\\WebScheduleProject\\WebScheduleProject\\appsettings.json",
+              "RelativeToolTip": "WebScheduleProject\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-20T14:44:32.223Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Anastasya\\source\\repos\\WebScheduleProject\\WebScheduleProject\\Views\\SimService\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebScheduleProject\\Views\\SimService\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Anastasya\\source\\repos\\WebScheduleProject\\WebScheduleProject\\Views\\SimService\\Index.cshtml",
+              "RelativeToolTip": "WebScheduleProject\\Views\\SimService\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-20T14:45:28.91Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Anastasya\\source\\repos\\WebScheduleProject\\WebScheduleProject\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebScheduleProject\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Anastasya\\source\\repos\\WebScheduleProject\\WebScheduleProject\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "WebScheduleProject\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-20T14:45:38.879Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\Anastasya\\source\\repos\\WebScheduleProject\\WebScheduleProject\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "WebScheduleProject\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "C:\\Users\\Anastasya\\source\\repos\\WebScheduleProject\\WebScheduleProject\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "WebScheduleProject\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-20T14:46:13.434Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Anastasya\\source\\repos\\WebScheduleProject\\WebScheduleProject\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "WebScheduleProject\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Anastasya\\source\\repos\\WebScheduleProject\\WebScheduleProject\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "WebScheduleProject\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADIAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-20T14:43:18.574Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\Anastasya\\source\\repos\\WebScheduleProject\\WebScheduleProject\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "WebScheduleProject\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\Anastasya\\source\\repos\\WebScheduleProject\\WebScheduleProject\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "WebScheduleProject\\Views\\_ViewStart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-20T14:42:15.566Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\Anastasya\\source\\repos\\WebScheduleProject\\WebScheduleProject\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "WebScheduleProject\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\Anastasya\\source\\repos\\WebScheduleProject\\WebScheduleProject\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "WebScheduleProject\\Views\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-20T14:38:50.142Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ContactsController.cs",
+              "DocumentMoniker": "C:\\Users\\Anastasya\\source\\repos\\WebScheduleProject\\WebScheduleProject\\Controllers\\ContactsController.cs",
+              "RelativeDocumentMoniker": "WebScheduleProject\\Controllers\\ContactsController.cs",
+              "ToolTip": "C:\\Users\\Anastasya\\source\\repos\\WebScheduleProject\\WebScheduleProject\\Controllers\\ContactsController.cs",
+              "RelativeToolTip": "WebScheduleProject\\Controllers\\ContactsController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T14:37:58.533Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Anastasya\\source\\repos\\WebScheduleProject\\WebScheduleProject\\Program.cs",
+              "RelativeDocumentMoniker": "WebScheduleProject\\Program.cs",
+              "ToolTip": "C:\\Users\\Anastasya\\source\\repos\\WebScheduleProject\\WebScheduleProject\\Program.cs",
+              "RelativeToolTip": "WebScheduleProject\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T13:56:59.742Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\Anastasya\\source\\repos\\WebScheduleProject\\WebScheduleProject\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "WebScheduleProject\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\Anastasya\\source\\repos\\WebScheduleProject\\WebScheduleProject\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "WebScheduleProject\\Controllers\\AccountController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T14:37:50.47Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "SimServiceController.cs",
+              "DocumentMoniker": "C:\\Users\\Anastasya\\source\\repos\\WebScheduleProject\\WebScheduleProject\\Controllers\\SimServiceController.cs",
+              "RelativeDocumentMoniker": "WebScheduleProject\\Controllers\\SimServiceController.cs",
+              "ToolTip": "C:\\Users\\Anastasya\\source\\repos\\WebScheduleProject\\WebScheduleProject\\Controllers\\SimServiceController.cs",
+              "RelativeToolTip": "WebScheduleProject\\Controllers\\SimServiceController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T14:37:28.586Z",
+              "EditorCaption": ""
             }
           ]
         }

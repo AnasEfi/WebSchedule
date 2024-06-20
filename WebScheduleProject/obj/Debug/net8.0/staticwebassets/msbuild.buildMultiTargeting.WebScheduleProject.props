@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\WebScheduleProject.props" />
+</Project>

@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
-namespace WebWTF.Controllers
+namespace WebScheduleProject.Controllers
 {
     [Authorize]
     public class AccountController : Controller
