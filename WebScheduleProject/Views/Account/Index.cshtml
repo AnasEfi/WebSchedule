@@ -1,0 +1,39 @@
+﻿@*
+   
+*@
+@{
+    ViewData["Title"] = "Login";
+ }
+
+    <div class="modal modal-sheet position-static d-block bg-body-secondary p-2 py-md-2" tabindex="-1" role="dialog" id="modalSignin">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content rounded-4 shadow">
+                <div class="p-5 pb-4 border-bottom-0">
+                    <h1 class="text-center">Sign In</h1>
+                </div>
+                <div class="modal-body p-4 pt-0">
+                <form method="post" action="@Url.Action("Login", "Account")">
+                        <div class="form-floating mb-3">
+                            <input type="email" class="form-control rounded-3" id="floatingInput" placeholder="name@example.com">
+                            <label for="floatingInput">Email address</label>
+                        </div>
+                        <div class="form-floating mb-3">
+                            <input type="password" class="form-control rounded-6" id="floatingPassword" placeholder="Password">
+                            <label for="floatingPassword">Password</label>
+                        </div>
+                        <button class="w-100 mb-2 btn btn-lg rounded-3 btn-primary" type="submit">Sign up</button>
+                       
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content rounded-2 shadow">
+                                <div class="p-3 pb-2 border-bottom-0">
+                                 <h4>Not a member?</h4>
+                                <%=Html.ActionLink("Sign in!", "SignIn",
+                                "Account", null, null) %> 
+                                </div>
+                            </div>
+                        </div>
+                     </form>
+                </div>
+            </div>
+        </div>
+    </div>
