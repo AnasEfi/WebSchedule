@@ -1,7 +1,19 @@
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
+using WebScheduleProject.Data;
+using Microsoft.AspNetCore.Identity;
+
+
 var builder = WebApplication.CreateBuilder(args);
+builder.Services.AddDbContext<WebScheduleProjectContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("WebScheduleProjectContext") ?? throw new InvalidOperationException("Connection string 'WebScheduleProjectContext' not found.")));
+
+builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true).
+    AddEntityFrameworkStores<WebScheduleProjectContext>();
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+builder.Services.AddRazorPages();
 
 var app = builder.Build();
 
@@ -12,6 +24,8 @@ if (!app.Environment.IsDevelopment())
     // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
     app.UseHsts();
 }
+
+
 
 app.UseHttpsRedirection();
 app.UseStaticFiles();
@@ -25,8 +39,8 @@ app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
 
-//app.UseWelcomePage();   // подключение WelcomePageMiddleware
+
+//app.UseWelcomePage();   //WelcomePageMiddleware
 
 app.Run();
-
 

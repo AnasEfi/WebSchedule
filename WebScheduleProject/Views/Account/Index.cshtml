@@ -25,11 +25,10 @@
                        
                         <div class="modal-dialog" role="document">
                             <div class="modal-content rounded-2 shadow">
-                                <div class="p-3 pb-2 border-bottom-0">
-                                 <h4>Not a member?</h4>
-                                <%=Html.ActionLink("Sign in!", "SignIn",
-                                "Account", null, null) %> 
-                                </div>
+                            <div class="p-3 pb-2 border-bottom-0">
+                                <h4>Not a member?</h4>
+                                @Html.ActionLink("Create User", "Create", "Users")
+                            </div>
                             </div>
                         </div>
                      </form>

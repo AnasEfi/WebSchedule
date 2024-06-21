@@ -7,14 +7,13 @@
         public string Password { get; set; }
         public string Username { get; set; }
 
-        public User(string email, string password, string username)
+       /* public User(int id, string email, string password, string username)
         {
+            Id = id;
             Email = email;
             Password = password;
             Username = username;
         }
-          
-        
-
+        */  
     }
 }
