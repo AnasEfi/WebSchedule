@@ -69,11 +69,26 @@ namespace WebScheduleProject.Controllers
         {
             if (ModelState.IsValid)
             {
+                var existingUser = await _context.User.FirstOrDefaultAsync(u => u.Email == user.Email);
+                if (existingUser != null)
+                {
+                    ModelState.AddModelError("Email", "Пользователь с таким email уже существует.");
+                    return View();
+                }
                 _context.Add(user);
                 await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
+                LoginUser authorizedUser = new LoginUser
+                {
+                    Email = user.Email,
+                    Password = user.Password
+                };
+                Console.WriteLine("Редиректим в логин");
+                return RedirectToAction("Login", "Account", authorizedUser);
             }
-            return View(user);
+            else
+            {
+                return View(user);
+            }
         }
 
         // GET: Users/Edit/5
