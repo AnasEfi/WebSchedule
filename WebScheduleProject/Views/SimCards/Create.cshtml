@@ -1,0 +1,63 @@
+﻿@model WebScheduleProject.Models.SimCard
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>SimCard</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="SimNumber" class="control-label"></label>
+                <input asp-for="SimNumber" class="form-control" type="tel" id="phoneInput" />
+                <span asp-validation-for="SimNumber" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Provider" class="control-label"></label>
+                <input asp-for="Provider" class="form-control"/>
+                <span asp-validation-for="Provider" class="text-danger" ></span>
+            </div>
+            <div class="p-2"></div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-controller="SimService" asp-action="Service">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+
+}
+<script>
+document.getElementById('phoneInput').addEventListener('input', function (e) {
+    let input = e.target;
+    let value = input.value.replace(/[^+0-9-]/g, ''); 
+  
+    if (value.length > 0 && value[0] !== '+' && value[0] !== '8') {
+        value = '+' + value; // Добавляем плюс в начале, если его нет
+    }
+    if (value.length > 2 && value[2] !== '-') {
+        value = value.slice(0, 2) + '-' + value.slice(2); // Добавляем первое тире
+    }
+    if (value.length > 6 && value[6] !== '-') {
+        value = value.slice(0, 6) + '-' + value.slice(6); // Добавляем второе тире
+    }
+    if (value.length > 10 && value[10] !== '-') {
+        value = value.slice(0, 10) + '-' + value.slice(10); // Добавляем третье тире
+    }
+
+    input.value = value;
+});
+</script>
+

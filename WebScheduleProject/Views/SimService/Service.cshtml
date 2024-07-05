@@ -1,13 +1,179 @@
-﻿@{
+﻿@model IEnumerable<WebScheduleProject.Models.SimCard>
+
+@{
     ViewData["Title"] = "SimService";
 }
+<style>
+    .form-group {
+        margin-top: 10px;
+    }
+
+    .form-group  *{
+        margin-top: 10px;
+    }
+
+    .row-with-line {
+        border-top: 1px solid #000;
+        margin-top: 10px;
+    }
+
+    .beuty-background {
+        background-color: rebeccapurple;
+    }
+
+    table .sim-number {
+        transition: .3s;
+        color: slategray;
+    }
+
+
+    .sim-number:hover {
+        cursor: pointer;
+        transition: .3s;
+        font-size: 18px;
+        color: mediumpurple;
+    }
+
+    .services {
+        position: relative;
+        width: 100%;
+        height: 200px;
+        overflow-y: scroll;
+        display: none;
+    }
+
+    .service-header {
+        font-size: 18px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: black;
+        text-align: center;
+        padding-bottom: 10px;
+        border-bottom: 2px solid black;
+    }
+
+    .single-service {
+        border-bottom: 1px solid rgba(0,0,0,.3);
+        padding: 5px 0 5px 15px;
+    }
+
+    .single-service-button {
+        margin-left: 20px;
+    }
+
+</style>
 
 <div class="bottom-header front-page">
     <div class="container">
         <div class="row">
             <div class="col-sm-12">
-                <h1>Добавьте свои сим карты<span class="span-dot">.</span>Внесите необходимую информацию<span class="span-dot">.</span>Хранить данные довольно просто</h1>
+                <h1>SIM-card storage service</h1>
             </div>
-       </div>
+        </div>
+        <div class="row">
+            <h2>Welcome, @ViewBag.Email</h2>
+        </div>
+
+        <div class="row row-with-line">
+            <div class="row">
+                <div class="p-2"></div>
+                <p>
+                    <a asp-controller="SimCards" asp-action="Create" class="btn btn-primary">Add SIM-Card</a>
+                </p>
+
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>
+                                @Html.DisplayNameFor(model => model.SimNumber)
+                            </th>
+                            <th>
+                                @Html.DisplayNameFor(model => model.Provider)
+                            </th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model)
+                        {
+                            <tr>
+                                <td>
+                                    <div class="sim-number">
+                                        @Html.DisplayFor(modelItem => item.SimNumber)
+                                    </div>
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.Provider)
+                                </td>
+                                <td>
+                                    <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                                    <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                                    <a asp-controller="SimCard" asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="3">
+                                    <div class="services">
+                                        <div class="service-header">Service List </div>
+                                        @foreach (var service in item.Services)
+                                        {
+                                            <div class="single-service">
+                                                @Html.DisplayFor(serv => service.ServiceName)
+                                                <button class="btn btn-primary single-service-button ">Edit</button>
+                                                <button class="btn btn-danger ">Delete</button>
+                                            </div>
+                                        }
+                                        
+                                        <form asp-controller="SimCards" asp-action="AddService" asp-route-id="@item.Id" method="post">
+                                            <div class="form-group">
+                                                <button id="addServiceButton" class="p-2 btn btn-primary single-service-button">Add Service</button>
+                                                <div id="addServiceForm" style="display: none;">
+                                                    <input type="text" id="serviceNameInput" name="serviceNameInput" placeholder="Enter service name" />
+                                                    <button type="submit" id="saveServiceButton" class="btn btn-success submit">Save</button>
+                                                    <button id="cancelServiceButton" class="btn btn-secondary">Cancel</button>
+                                                </div>
+                                            </div>
+                                        </form>
+
+                                </td>
+
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
     </div>
 </div>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        document.querySelectorAll('table td .sim-number').forEach(td => {
+            td.addEventListener('click', function () {
+                let s = td.closest('tr').nextElementSibling.querySelector('td .services');
+                s.style.display = s.style.display == 'none' ? 'block' : 'none';
+            });
+        });
+
+        document.getElementById('addServiceButton').addEventListener('click', function () {
+            event.preventDefault(); // Prevent the form from submitting
+            document.getElementById('addServiceForm').style.display = 'block';
+        });
+
+        document.getElementById('cancelServiceButton').addEventListener('click', function () {
+            document.getElementById('addServiceForm').style.display = 'none';
+        });
+
+        document.getElementById('saveServiceButton').addEventListener('click', function () {
+            let serviceName = document.getElementById('serviceNameInput').value;
+            if (serviceName) {
+                console.log('Service saved:', serviceName);
+                document.getElementById('addServiceForm').style.display = 'none';
+            } else {
+                alert('Please enter a service name.');
+            }
+        });
+    });
+</script>
+
+
+

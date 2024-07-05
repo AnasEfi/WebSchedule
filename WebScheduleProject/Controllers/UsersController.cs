@@ -22,12 +22,12 @@ namespace WebScheduleProject.Controllers
         // GET: Users
         public async Task<IActionResult> Index(string searchString)
         {
-            if (_context.User == null)
+            if (_context.Users == null)
             {
                 return Problem("Entity set Users is empty");
             }
 
-            var users = from u in _context.User
+            var users = from u in _context.Users
                         select u;
             if (!String.IsNullOrEmpty(searchString))
             {
@@ -44,7 +44,7 @@ namespace WebScheduleProject.Controllers
                 return NotFound();
             }
 
-            var user = await _context.User
+            var user = await _context.Users
                 .FirstOrDefaultAsync(m => m.Id == id);
             if (user == null)
             {
@@ -69,7 +69,7 @@ namespace WebScheduleProject.Controllers
         {
             if (ModelState.IsValid)
             {
-                var existingUser = await _context.User.FirstOrDefaultAsync(u => u.Email == user.Email);
+                var existingUser = await _context.Users.FirstOrDefaultAsync(u => u.Email == user.Email);
                 if (existingUser != null)
                 {
                     ModelState.AddModelError("Email", "Пользователь с таким email уже существует.");
@@ -99,7 +99,7 @@ namespace WebScheduleProject.Controllers
                 return NotFound();
             }
 
-            var user = await _context.User.FindAsync(id);
+            var user = await _context.Users.FindAsync(id);
             if (user == null)
             {
                 return NotFound();
@@ -150,7 +150,7 @@ namespace WebScheduleProject.Controllers
                 return NotFound();
             }
 
-            var user = await _context.User
+            var user = await _context.Users
                 .FirstOrDefaultAsync(m => m.Id == id);
             if (user == null)
             {
@@ -165,10 +165,10 @@ namespace WebScheduleProject.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
-            var user = await _context.User.FindAsync(id);
+            var user = await _context.Users.FindAsync(id);
             if (user != null)
             {
-                _context.User.Remove(user);
+                _context.Users.Remove(user);
             }
 
             await _context.SaveChangesAsync();
@@ -177,7 +177,7 @@ namespace WebScheduleProject.Controllers
 
         private bool UserExists(int id)
         {
-            return _context.User.Any(e => e.Id == id);
+            return _context.Users.Any(e => e.Id == id);
         }
     }
 }

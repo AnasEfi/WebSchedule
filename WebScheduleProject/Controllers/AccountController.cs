@@ -35,6 +35,7 @@ namespace WebScheduleProject.Controllers
         }
 
         [AllowAnonymous]
+
         [HttpPost]
         public async Task<IActionResult> Login([Bind("Email,Password")] LoginUser model, string ReturnUrl)
         {
@@ -42,21 +43,25 @@ namespace WebScheduleProject.Controllers
             Console.WriteLine(model.Email + ": email");
             Console.WriteLine(model.Password + ": pwd");
 
-            if (_context.User == null)
+            if (_context.Users == null)
             {
                 Console.WriteLine("romble found");
                 return Problem("Entity set Users is empty");
             }
 
-            var users = from u in _context.User
+            var users = from u in _context.Users
                         select u;
 
             User? user = users.FirstOrDefault(p => p.Email == model.Email && p.Password == model.Password);
             if (user is null) return Unauthorized();
             else
             {
-                List<Claim> claims = new List<Claim> { new Claim(ClaimTypes.Name, user.Email) };
-                ClaimsIdentity claimsIdentity = new ClaimsIdentity(claims,CookieAuthenticationDefaults.AuthenticationScheme);
+                List<Claim> claims = new List<Claim>
+               {
+                 new Claim(ClaimTypes.Name, user.Email),
+                 new Claim("Id", user.Id.ToString())
+                }; 
+                ClaimsIdentity claimsIdentity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
                 await HttpContext.SignInAsync(new ClaimsPrincipal(claimsIdentity));
                 return Redirect(ReturnUrl == null ? "/" : ReturnUrl);
             }

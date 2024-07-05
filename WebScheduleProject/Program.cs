@@ -8,7 +8,6 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddDbContext<WebScheduleProjectContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("WebScheduleProjectContext") ?? throw new InvalidOperationException("Connection string 'WebScheduleProjectContext' not found.")));
 
-
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
