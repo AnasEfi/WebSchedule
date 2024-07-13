@@ -195,7 +195,46 @@ namespace WebScheduleProject.Controllers
             return RedirectToAction("Service", "SimService");
 
         }
+        public async Task<IActionResult> DeleteService(int id)
+        {
+            var item = _context.SimCards.Find(id);
+            if (item != null)
+            {
+                return View(item);
+            }
+            else return NoContent();
+        }
 
+
+        [HttpPost]
+        public async Task<IActionResult> DeleteService(int serviceId, int itemId, string returnUrl)
+        {
+            var item = _context.SimCards.Find(itemId);
+            // Ensure the Services are loaded
+            await _context.Entry(item).Collection(i => i.Services).LoadAsync();
+            if (item == null)
+            {
+                return NotFound();
+            }
+            try
+            {
+                if (serviceId != -1)
+                {
+                    var serviceToRemove = item.Services.FirstOrDefault(s => s.Id == serviceId);
+                    if (serviceToRemove != null)
+                    {
+                        item.Services.Remove(serviceToRemove);
+                        await _context.SaveChangesAsync();
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                // Обработка ошибок
+                return StatusCode(500, $"Internal server error: {ex.Message}");
+            }
+            return RedirectToAction("Service", "SimService");
+        }
 
 
         // GET: SimCards/Delete/5

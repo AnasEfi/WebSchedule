@@ -53,8 +53,12 @@
 
     .single-service {
         border-bottom: 1px solid rgba(0,0,0,.3);
+        display: flex;
+        align-items: center;
         padding: 5px 0 5px 15px;
+        justify-content: space-evenly;
     }
+   
 
     .single-service-button {
         margin-left: 20px;
@@ -117,10 +121,14 @@
                                         @foreach (var service in item.Services)
                                         {
                                             <div class="single-service">
-                                                @Html.DisplayFor(serv => service.ServiceName)
-                                                <button class="btn btn-primary single-service-button ">Edit</button>
-                                                <button class="btn btn-danger ">Delete</button>
-                                            </div>
+                                               <p> @Html.DisplayFor(serv => service.ServiceName) </p>
+                                                <form asp-controller="SimCards" asp-action="DeleteService" method="post">
+                                                    <input type="hidden" name="serviceId" value="@service.Id"/>
+                                                    <input type="hidden" name="itemId" value="@item.Id" />
+                                                    <input type="hidden" name="returnUrl" value="@Context.Request.Path" />
+                                                    <button type="submit" class="btn btn-danger">Delete</button>
+                                                </form>
+                                                </div>
                                         }
                                         
                                         <form asp-controller="SimCards" asp-action="AddService" asp-route-id="@item.Id" method="post">

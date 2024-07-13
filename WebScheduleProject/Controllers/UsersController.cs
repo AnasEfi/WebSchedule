@@ -136,7 +136,7 @@ namespace WebScheduleProject.Controllers
                     {
                         throw;
                     }
-                }
+                } 
                 return RedirectToAction(nameof(Index));
             }
             return View(user);
